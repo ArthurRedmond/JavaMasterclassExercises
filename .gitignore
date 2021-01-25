@@ -1,3 +1,7 @@
+.idea/
+# Default ignored files
+/shelf/
+/workspace.xml
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,java-web,code-java,intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,java-web,code-java,intellij
@@ -19,7 +23,6 @@ factoryConfiguration.json
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
 # Generated files
 .idea/**/contentModel.xml
 
@@ -51,7 +54,6 @@ factoryConfiguration.json
 
 # CMake
 cmake-build-*/
-
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
@@ -85,7 +87,7 @@ fabric.properties
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
- *.iml
+*.iml
 # modules.xml
 # .idea/misc.xml
 # *.ipr
