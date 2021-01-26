@@ -27,6 +27,9 @@ public class Sandbox {
 //        System.out.println(LastDigitChecker.hasSameLastDigit(12,23,33));
 //        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(9,10));
 //        AllFactors.printFactors(32);
-        System.out.println(PerfectNumber.isPerfectNumber(6));
+//        System.out.println(PerfectNumber.isPerfectNumber(6));
+//        NumberToWords.numberToWords(12340);
+//        System.out.println(NumberToWords.reverse(-2));
+        NumberToWords.numberToWords(-222);
         }
 }
