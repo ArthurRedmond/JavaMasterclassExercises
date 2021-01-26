@@ -30,6 +30,7 @@ public class Sandbox {
 //        System.out.println(PerfectNumber.isPerfectNumber(6));
 //        NumberToWords.numberToWords(12340);
 //        System.out.println(NumberToWords.reverse(-2));
-        NumberToWords.numberToWords(-222);
+//        NumberToWords.numberToWords(-222);
+        System.out.println(FlourPack.canPack(2,1,6));
         }
 }
