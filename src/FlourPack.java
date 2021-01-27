@@ -1,15 +1,19 @@
 public class FlourPack {
     public static boolean canPack(int bigCount, int smallCount, int goal) {
-        if(bigCount < 0 || smallCount < 0 || goal < 0) {
+        int bigTotal = bigCount * 5;
+        if (bigCount < 0 || smallCount < 0 || goal < 0) {
             return false;
         }
-        int bigTotal = bigCount * 5;
-        int smallTotal = smallCount;
         if(bigTotal < goal) {
-            if(goal - bigTotal > smallTotal) {
+            if(bigTotal + smallCount >= goal) {
                 return true;
             }
-//        } else if(bigTotal > goal) {
-//            if(goal / bigCount);
+        } if (bigTotal >= goal) {
+            int bigAble = goal / 5;
+            if(((bigAble * 5) + smallCount) >= goal) {
+                return true;
+            }
         }
+        return false;
+    }
 }

@@ -3,7 +3,7 @@ public class Sandbox {
     public static void main(String[] args) {
 
 //        MegaBytesConverter.printMe
-//        gaBytesAndKiloBytes(-10);
+//        BytesAndKiloBytes(-10);
 //        System.out.println(BarkingDog.shouldWakeUp(true, 23));
 //        System.out.println(LeapYear.isLeapYear(1700));
 //        System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.1755, 3.175));
@@ -31,6 +31,6 @@ public class Sandbox {
 //        NumberToWords.numberToWords(12340);
 //        System.out.println(NumberToWords.reverse(-2));
 //        NumberToWords.numberToWords(-222);
-        System.out.println(FlourPack.canPack(2,1,6));
+        System.out.println(FlourPack.canPack(0,5,5));
         }
 }
