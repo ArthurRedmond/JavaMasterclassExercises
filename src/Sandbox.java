@@ -31,6 +31,8 @@ public class Sandbox {
 //        NumberToWords.numberToWords(12340);
 //        System.out.println(NumberToWords.reverse(-2));
 //        NumberToWords.numberToWords(-222);
-        System.out.println(FlourPack.canPack(0,5,5));
+//        System.out.println(FlourPack.canPack(0,5,5));
+//        System.out.println(LargestPrime.getLargestPrime(21));
+//        DiagonalStar.printSquareStar(8);
         }
 }
